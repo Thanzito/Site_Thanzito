@@ -11,7 +11,7 @@ header{
     padding: 15px;
 }
 section{
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
@@ -19,5 +19,36 @@ section{
 img{
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    margin: 20px;
+    margin: 10px;
+    width: 20%;
+}
+
+h2{
+    color: rgb(255, 123, 0);
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+label{
+    display:block  
+}
+li, p{
+    font-size: 20px;
+}
+button{
+    display: block;
+}
+button:hover{
+    background: orangered;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+a{
+    display: block;
+    margin: 10px;
+    font-size: 20px;
 }
